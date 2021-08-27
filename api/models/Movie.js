@@ -12,7 +12,7 @@ const MovieSchema = new mongoose.Schema({
     year: {type: String},
     limit: {type: Number},
     genre: {type: String},
-    isSeries: {type: boolean, default: false},
+    isSeries: {type: Boolean, default: false},
 },{timestamps: true})
 
-module.export = mongoose.model('Movie', MovieSchema)
+module.exports = mongoose.model('Movie', MovieSchema)
