@@ -8,9 +8,9 @@ import Login from './pages/login/Login';
 const App = () => {
    return ( 
       // <Login/>
-      <Register/>
+      // <Register/>
             // <Watch/>
-         //  <Home/>
+          <Home/>
    )
 }
 export default App;
