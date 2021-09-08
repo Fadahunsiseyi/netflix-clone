@@ -17,7 +17,7 @@ const Home = ({type}) => {
                      {
                          headers: { 
                              token: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMjliZWRiNjQ3MDNjYjI3OTQ1MWJhZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzMTAxMjkzNSwiZXhwIjoxNjMxNDQ0OTM1fQ.hwX9DDreoIay0CxdhWqn78fQLAmpfPUeZiQYucfwfjk"
-                         }
+                         },
                      }
                      )
                     console.log(res, 'i am here and standing')
